@@ -37,7 +37,7 @@ __version__ = '0.5.0'
 
 noprofiler = False
 try:
-	import profile, pstats
+	import profile, pstats # using profile and not cProfile because cProfile does not support multi-threaded applications.
 except:
 	noprofiler = True
 

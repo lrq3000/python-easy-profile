@@ -32,12 +32,12 @@ def startmemorytracker():
     tr = tracker.SummaryTracker()
     return tr
 
-def runprofilerandshow(funcname, profilepath, *args, **kwargs):
+def runprofilerandshow(funcname, profilepath, argv='', *args, **kwargs):
     '''
     Run a functions profiler and show it in a GUI visualisation using RunSnakeRun
     Note: can also use calibration for more exact results
     '''
-    functionprofiler.runprofile(funcname+'()', profilepath, *args, **kwargs)
+    functionprofiler.runprofile(funcname+'(\''+argv+'\')', profilepath, *args, **kwargs)
     print 'Showing profile (windows should open in the background)'; sys.stdout.flush();
     functionprofiler.browseprofilegui(profilepath)
 
