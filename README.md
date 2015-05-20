@@ -48,3 +48,9 @@ For your script "target.py" to be profilable by easy_profile.py, you need to imp
 In fact, making your script profilable is in other words making your script importable by any other Python script.
 
 About direct usage of the profilers without using easy_profiler.py, you can check the sourcecode to see the comments. More usage information will maybe be provided in this readme in the future (when I've got some spare time).
+
+Todo
+---------
+
+- Add "program slicing" libraries (both statical and dynamical)? http://en.wikipedia.org/wiki/Program_slicing
+- Add coverage? http://nedbatchelder.com/code/coverage/
