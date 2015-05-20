@@ -50,7 +50,7 @@ In fact, making your script profilable is in other words making your script impo
 About direct usage of the profilers without using easy_profiler.py, you can check the sourcecode to see the comments. More usage information will maybe be provided in this readme in the future (when I've got some spare time).
 
 Todo
----------
-
+----
+- Look at emulation profilers, so that we don't need to run the application fully to profile it. For example: https://github.com/radical-cybertools/radical.synapse
 - Add "program slicing" libraries (both statical and dynamical)? http://en.wikipedia.org/wiki/Program_slicing
 - Add coverage? http://nedbatchelder.com/code/coverage/
