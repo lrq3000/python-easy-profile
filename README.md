@@ -54,3 +54,4 @@ Todo
 - Look at emulation profilers, so that we don't need to run the application fully to profile it. For example: https://github.com/radical-cybertools/radical.synapse
 - Add "program slicing" libraries (both statical and dynamical)? http://en.wikipedia.org/wiki/Program_slicing
 - Add coverage? http://nedbatchelder.com/code/coverage/
+- https://github.com/tobami/codespeed
