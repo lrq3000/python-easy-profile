@@ -55,3 +55,5 @@ Todo
 - Add "program slicing" libraries (both statical and dynamical)? http://en.wikipedia.org/wiki/Program_slicing
 - Add coverage? http://nedbatchelder.com/code/coverage/
 - https://github.com/tobami/codespeed
+- https://github.com/pydata/vbench
+- https://github.com/bdarnell/plop
